@@ -25,10 +25,10 @@
 	<?php 
 		include 'conn/koneksi.php';
 		if(@$_GET['p']==""){
-			include_once 'login.php';
+			include_once 'masuk.php';
 		}
 		elseif(@$_GET['p']=="login"){
-			include_once 'login.php';
+			include_once 'masuk.php';
 		}
 		elseif(@$_GET['p']=="logout"){
 			include_once 'logout.php';
